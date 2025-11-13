@@ -1,5 +1,6 @@
 import { signIn } from '@/auth'
-
+import { Button } from './ui/button'
+import { FaGithub } from 'react-icons/fa'
 export default function SignIn() {
     return (
         <form
@@ -8,7 +9,9 @@ export default function SignIn() {
                 await signIn('github')
             }}
         >
-            <button type='submit'>Signin with GitHub</button>
+            <Button type='submit' aria-label='Submit'>
+                Signin <FaGithub />
+            </Button>
         </form>
     )
 }
