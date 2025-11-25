@@ -5,6 +5,9 @@ import './globals.css'
 import Header from '@/components/layout/header'
 import Footer from '@/components/layout/footer'
 import { brand } from '@/consts/landing'
+import { ThemeProvider } from '@/components/providers/theme-provider'
+import { Analytics } from '@vercel/analytics/next'
+import ScrollToTop from '@/components/layout/scroll-to-top'
 
 const geistSans = Geist({
     variable: '--font-geist-sans',
@@ -31,9 +34,19 @@ export default function RootLayout({
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >
-                <Header />
-                <main className='min-h-body'>{children}</main>
-                <Footer />
+                <ThemeProvider
+                    attribute='class'
+                    defaultTheme='dark'
+                    enableSystem
+                    storageKey='app-theme'
+                    disableTransitionOnChange
+                >
+                    <Header />
+                    <main className='min-h-body'>{children}</main>
+                    <Footer />
+                </ThemeProvider>
+                <Analytics />
+                <ScrollToTop />
             </body>
         </html>
     )

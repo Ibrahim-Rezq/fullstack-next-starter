@@ -7,6 +7,7 @@ import { auth } from '@/auth'
 import { brand } from '@/consts/landing'
 import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip'
 import links from '@/consts/links'
+import ThemeToggleBtn from './theme-toggle-btn'
 
 export default async function Header() {
     const session = await auth()
@@ -67,6 +68,7 @@ export default async function Header() {
                     ) : (
                         <SignIn />
                     )}
+                    <ThemeToggleBtn />
 
                     <Button variant='ghost' size='icon' className='md:hidden'>
                         <Menu className='h-5 w-5' />
