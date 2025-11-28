@@ -4,40 +4,40 @@ A production-ready Next.js starter template with authentication, database integr
 
 ## 🚀 Features
 
--   ⚡ **Next.js 14+** - React framework with App Router
--   🔐 **Authentication** - Pre-configured auth system using Next-Auth (Auth.js)
--   🗄️ **Prisma ORM** - Type-safe database access
--   🎨 **Shadcn/ui** - Beautiful and accessible component library
--   💅 **Tailwind CSS** - Utility-first CSS framework
--   📝 **TypeScript** - Full type safety
--   🎯 **ESLint & Prettier** - Code quality and formatting
--   📱 **Responsive Design** - Mobile-first approach
--   🌙 **Dark Mode Ready** - Theme switching capability
+- ⚡ **Next.js 14+** - React framework with App Router
+- 🔐 **Authentication** - Pre-configured auth system using Next-Auth (Auth.js)
+- 🗄️ **Prisma ORM** - Type-safe database access
+- 🎨 **Shadcn/ui** - Beautiful and accessible component library
+- 💅 **Tailwind CSS** - Utility-first CSS framework
+- 📝 **TypeScript** - Full type safety
+- 🎯 **ESLint & Prettier** - Code quality and formatting
+- 📱 **Responsive Design** - Mobile-first approach
+- 🌙 **Dark Mode Ready** - Theme switching capability
 
 ## 📦 What's Included
 
--   **Landing Page** - Modern, conversion-optimized homepage
--   **Dashboard** - User management interface with CRUD operations
--   **User Profile** - View and edit user information
--   **Authentication Pages** - Login, register, password reset flows
--   **Header & Footer** - Reusable layout components
--   **API Routes** - RESTful API structure with Prisma
+- **Landing Page** - Modern, conversion-optimized homepage
+- **Dashboard** - User management interface with CRUD operations
+- **User Profile** - View and edit user information
+- **Authentication Pages** - Login, register, password reset flows
+- **Header & Footer** - Reusable layout components
+- **API Routes** - RESTful API structure with Prisma
 
 ## 🛠️ Tech Stack
 
--   **Framework:** Next.js 14+
--   **Language:** TypeScript
--   **Styling:** Tailwind CSS
--   **Components:** shadcn/ui
--   **Database:** Prisma ORM
--   **Authentication:** Next-Auth (Auth.js)
--   **Icons:** React Icons
+- **Framework:** Next.js 14+
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Components:** shadcn/ui
+- **Database:** Prisma ORM
+- **Authentication:** Next-Auth (Auth.js)
+- **Icons:** React Icons
 
 ## 📋 Prerequisites
 
--   Node.js 18+
--   npm/yarn/pnpm
--   PostgreSQL (preferably or your preferred database)
+- Node.js 18+
+- npm/yarn/pnpm
+- PostgreSQL (preferably or your preferred database)
 
 ## 🚀 Getting Started
 
@@ -126,17 +126,17 @@ npx prisma generate
 
 ### Styling
 
--   Modify `tailwind.config.ts` for theme customization
--   Update `app/globals.css` for global styles
--   Use Tailwind utility classes throughout components
+- Modify `tailwind.config.ts` for theme customization
+- Update `app/globals.css` for global styles
+- Use Tailwind utility classes throughout components
 
 ## 📝 Available Scripts
 
--   `npm run dev` - Start development server
--   `npm run build` - Build for production
--   `npm run start` - Start production server
--   `npm run lint` - Run ESLint
--   `npx prisma studio` - Open Prisma Studio
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npx prisma studio` - Open Prisma Studio
 
 ## 🔒 Environment Variables
 
@@ -149,11 +149,11 @@ npx prisma generate
 
 ## 📚 Learn More
 
--   [Next.js Documentation](https://nextjs.org/docs)
--   [Prisma Documentation](https://www.prisma.io/docs)
--   [shadcn/ui Documentation](https://ui.shadcn.com/)
--   [Tailwind CSS Documentation](https://tailwindcss.com/docs)
--   [Next Auth (Auth.js) Documentaion](https://authjs.dev/getting-started)
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Prisma Documentation](https://www.prisma.io/docs)
+- [shadcn/ui Documentation](https://ui.shadcn.com/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Next Auth (Auth.js) Documentaion](https://authjs.dev/getting-started)
 
 ## 🤝 Contributing
 
